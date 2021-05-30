@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Created by Mostafa Hassani
-# Will install Docker in Centos
+# Will install Docker in CentOS7
 
 # Update
 sudo yum update -y
