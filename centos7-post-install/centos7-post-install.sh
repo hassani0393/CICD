@@ -29,4 +29,14 @@ jre-8u291-linux-x64.rpm && rm -rf /tmp/cookies.txt
 
 rpm -ivh jre-8u291-linux-x64.rpm
 
+#cd /root
+#mkdir ./java
+#cd /java
+
+#wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies \
+#--no-check-certificate 'https://docs.google.com/uc?export=download&id=1NSpUoyRXAicfg8yUHXSSOHTqEGfJwFFE' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1NSpUoyRXAicfg8yUHXSSOHTqEGfJwFFE" -O \
+#jdk-8u291-linux-x64.rpm && rm -rf /tmp/cookies.txt
+
+#rpm -ivh jdk-8u291-linux-x64.rpm
+
 echo "Done."
